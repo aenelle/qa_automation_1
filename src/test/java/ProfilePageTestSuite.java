@@ -17,7 +17,7 @@ public class ProfilePageTestSuite {
 
   @BeforeMethod
   public static void setUp(){
-    System.setProperty("webdriver.chrome.driver", ConfProperties.getProperty("chromedriver"));
+    System.setProperty("webdriwer.chrome.driver", ConfProperties.getProperty("chromedriver"));
     WebDriver driver =  new ChromeDriver();
     loginPage = new LoginPage(driver);
     panelInfoPage = new PanelInfoPage(driver);
